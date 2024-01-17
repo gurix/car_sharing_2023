@@ -4,7 +4,7 @@
 I had the opportunity to use my neighbor's car, as they rarely used it. I have been able to use the car for the past six months whenever I need it. To avoid any conflicts or confusion, we decided to use the online platform https://www.weeshare.com to manage car reservations. After each ride, we simply write down the date and mileage in a pocket notebook that we leave in the car. This method has been quite effective.
 
 ## Digitalizing the Data
-Now, the challenge lies in digitizing the handwritten table. Instead of manually typing down all 50 rows, I decided to employ artificial intelligence as a lazy software developer and AI enthusiast. I took photos of the table and used chatGPT to extract the data and combine it into one comprehensive table. However, as expected, it was not a simple task.
+Now, the challenge lies in digitizing the handwritten table. Instead of manually typing down all 50 rows, I decided to employ artificial intelligence as a lazy software developer and AI enthusiast. I took photos of the table and used chatGPT to extract the data and combine it into one comprehensive table. However, as expected, it was not a simple task. [AIChat](https://github.com/sigoden/aichat) was utilized as a client for accessing the OpenAI API.
 
 ## 1. Extracting the Table from the Images
 The table was not a single large entity but rather multiple pages within a booklet. Therefore, I had to take a photo of each page and instruct chatGPT to extract the data and merge everything into one cohesive table.
